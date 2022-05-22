@@ -24,16 +24,22 @@ export class PostService {
  async findOne(id: number) {
 
 
-    const find = await this.repository.findOneBy({id: +id});
+    // const find = await this.repository.findOneBy({id: +id});
+    //
+    // if (!find ){
+    //   throw new NotFoundException('Статья не найдена')
+    // }
 
-    if (!find ){
-      throw new NotFoundException('Статья не найдена')
-    }
+     const find = await this.repository.findOne(id);
+
+     if (!find ){
+       throw new NotFoundException('Статья не найдена')
+     }
     return find;
   }
 
   async update(id: number, dto: UpdatePostDto) {
-    const find = await this.repository.findOneBy({id: +id});
+    const find = await this.repository.findOne(id);
 
     if (!find) {
       throw new NotFoundException('Статья не найдена');
@@ -43,7 +49,7 @@ export class PostService {
   }
 
  async remove(id: number) {
-      const find = await this.repository.findOneBy({id: +id});
+      const find = await this.repository.findOne(id);
 
       if (!find) {
           throw new NotFoundException('Статья не найдена');
