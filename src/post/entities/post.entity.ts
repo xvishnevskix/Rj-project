@@ -1,23 +1,23 @@
 
 import {Entity, Column, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn} from 'typeorm';
 
-@Entity('users')
-export class UserEntity {
+@Entity('posts')
+export class PostEntity {
     @PrimaryGeneratedColumn()
     id: number;
 
     @Column({ nullable: true })
-    fullName: string;
+    title: string;
 
     @Column({ nullable: true })
-    email: string;
+    body: string;
 
     @Column({ nullable: true })
-    password?: string;
+    tags?: string;
 
-    @CreateDateColumn({ type: 'timestamp' })
+    @CreateDateColumn({type: 'timestamp'})
     createdAt: Date;
 
-    @UpdateDateColumn({ type: 'timestamp' })
+    @UpdateDateColumn({type: 'timestamp'})
     updatedAt: Date;
 }
