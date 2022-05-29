@@ -1,8 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ed8d138c-3755-4e59-83ab-46d2388aee25" name="Default Changelist" comment="Auth mod...">
-      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/utils/api/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/utils/api/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_05_2022_10_35_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_05_2022_10_35__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/auth/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/AuthDialog/forms/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/AuthDialog/forms/Login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/AuthDialog/forms/Register.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/AuthDialog/forms/Register.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/utils/validations.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/utils/validations.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,10 +43,17 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="frontAuth" />
+        <entry key="$PROJECT_DIR$" value="Main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="Main" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="xvishnevskix" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="TJ-project" />
   </component>
   <component name="ProjectId" id="297oi2cy63PX2zsSHCpw3fAYx07" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,8 +69,44 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="D:\Downloads\Проектики\TJ project\frontend\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Downloads\Проектики\TJ project\frontend" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/backend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start:dev" />
+        <item itemvalue="npm.start:dev" />
+        <item itemvalue="npm.start:dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,6 +122,26 @@
       <workItem from="1652506620025" duration="41000" />
       <workItem from="1652506668548" duration="5303000" />
       <workItem from="1652513819741" duration="356000" />
+      <workItem from="1652519161409" duration="1400000" />
+      <workItem from="1652526514785" duration="871000" />
+      <workItem from="1652527401298" duration="221000" />
+      <workItem from="1652527635780" duration="226000" />
+      <workItem from="1652527900860" duration="392000" />
+      <workItem from="1652528311181" duration="150000" />
+      <workItem from="1652528504946" duration="1256000" />
+      <workItem from="1652529788766" duration="3525000" />
+      <workItem from="1652595722885" duration="5534000" />
+      <workItem from="1652680241174" duration="595000" />
+      <workItem from="1652713192640" duration="3428000" />
+      <workItem from="1652798433677" duration="1000" />
+      <workItem from="1652863755191" duration="12878000" />
+      <workItem from="1653049443244" duration="3490000" />
+      <workItem from="1653069500307" duration="823000" />
+      <workItem from="1653072993262" duration="45403000" />
+      <workItem from="1653469699786" duration="11112000" />
+      <workItem from="1653558814828" duration="8088000" />
+      <workItem from="1653727595505" duration="5446000" />
+      <workItem from="1653818422482" duration="915000" />
     </task>
     <task id="LOCAL-00001" summary="Auth Add">
       <created>1652508604076</created>
@@ -86,6 +180,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Auth Add" />
@@ -93,21 +188,61 @@
     <option name="LAST_COMMIT_MESSAGE" value="Auth mod..." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1652513816582">
+    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1652530378954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1652513816582" />
-    <state x="399" y="170" key="SettingsEditor" timestamp="1652509576205">
+    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652530378954" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1653560716884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="399" y="170" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1652509576205" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1652512313280">
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1653560716884" />
+    <state x="743" y="387" key="Github.CreatePullRequestDialog" timestamp="1653573168382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1652512313280" />
+    <state x="743" y="387" key="Github.CreatePullRequestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653573168382" />
+    <state width="1899" height="212" key="GridCell.Tab.0.bottom" timestamp="1653731576321">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="212" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1653731576321" />
+    <state width="1899" height="212" key="GridCell.Tab.0.center" timestamp="1653731576321">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="212" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1653731576321" />
+    <state width="1899" height="212" key="GridCell.Tab.0.left" timestamp="1653731576319">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="212" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1653731576319" />
+    <state width="1899" height="212" key="GridCell.Tab.0.right" timestamp="1653731576321">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="212" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1653731576321" />
+    <state x="293" y="163" key="SettingsEditor" timestamp="1653560732513">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="293" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1653560732513" />
+    <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog" timestamp="1652530378954">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652530378954" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1653573328695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1653573328695" />
+    <state x="622" y="249" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1653573016972">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="622" y="249" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653573016972" />
     <state x="740" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1652513738175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652513738175" />
+    <state x="773" y="414" key="git4idea.ui.GitResetDialog" timestamp="1652528588841">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="773" y="414" key="git4idea.ui.GitResetDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652528588841" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1653127065094">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1653127065094" />
   </component>
 </project>
