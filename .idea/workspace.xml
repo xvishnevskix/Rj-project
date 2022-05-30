@@ -20,25 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed8d138c-3755-4e59-83ab-46d2388aee25" name="Default Changelist" comment="Auth mod...">
-      <change afterPath="$PROJECT_DIR$/frontend/utils/api/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/utils/api/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_05_2022_10_35_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_05_2022_10_35__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/redux/hooks.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/redux/slices/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/redux/store.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/auth/auth.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/components/AuthDialog/forms/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/AuthDialog/forms/Login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/AuthDialog/forms/Register.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/AuthDialog/forms/Register.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Header/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/utils/validations.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/utils/validations.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/_app.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -75,6 +80,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Downloads\Проектики\TJ project\frontend\redux\slices" />
       <recent name="D:\Downloads\Проектики\TJ project\frontend" />
     </key>
   </component>
@@ -141,7 +147,8 @@
       <workItem from="1653469699786" duration="11112000" />
       <workItem from="1653558814828" duration="8088000" />
       <workItem from="1653727595505" duration="5446000" />
-      <workItem from="1653818422482" duration="915000" />
+      <workItem from="1653818422482" duration="14899000" />
+      <workItem from="1653913570677" duration="3850000" />
     </task>
     <task id="LOCAL-00001" summary="Auth Add">
       <created>1652508604076</created>
@@ -188,6 +195,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Auth mod..." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="724" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1653835321407">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="724" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1653835321407" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1653841774755">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653841774755" />
     <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1652530378954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -200,22 +215,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="387" key="Github.CreatePullRequestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653573168382" />
-    <state width="1899" height="212" key="GridCell.Tab.0.bottom" timestamp="1653731576321">
+    <state width="1899" height="212" key="GridCell.Tab.0.bottom" timestamp="1653915535911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="212" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1653731576321" />
-    <state width="1899" height="212" key="GridCell.Tab.0.center" timestamp="1653731576321">
+    <state width="1899" height="212" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1653915535911" />
+    <state width="1899" height="212" key="GridCell.Tab.0.center" timestamp="1653915535911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="212" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1653731576321" />
-    <state width="1899" height="212" key="GridCell.Tab.0.left" timestamp="1653731576319">
+    <state width="1899" height="212" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1653915535911" />
+    <state width="1899" height="212" key="GridCell.Tab.0.left" timestamp="1653915535911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="212" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1653731576319" />
-    <state width="1899" height="212" key="GridCell.Tab.0.right" timestamp="1653731576321">
+    <state width="1899" height="212" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1653915535911" />
+    <state width="1899" height="212" key="GridCell.Tab.0.right" timestamp="1653915535911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="212" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1653731576321" />
+    <state width="1899" height="212" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1653915535911" />
     <state x="293" y="163" key="SettingsEditor" timestamp="1653560732513">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
