@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed8d138c-3755-4e59-83ab-46d2388aee25" name="Default Changelist" comment="Auth mod...">
-      <change afterPath="$PROJECT_DIR$/frontend/utils/api/comment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/utils/api/post.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/utils/api/user.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_05_2022_17_04_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_05_2022_17_04__Default_Changelist_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/pages/news/[id].tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/auth/auth.service.ts" afterDir="false" />
@@ -35,16 +31,11 @@
       <change beforePath="$PROJECT_DIR$/backend/src/post/post.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/post/post.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/post/post.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/post/post.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/user/user.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/user/user.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/AuthDialog/forms/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/AuthDialog/forms/Login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/AuthDialog/forms/Register.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/AuthDialog/forms/Register.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Editor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Editor.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Header/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Post/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Post/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/FullPost/FullPost.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/FullPost/FullPost.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/FullPost/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/FullPost/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/components/WriteForm/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/WriteForm/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/utils/api/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/utils/api/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/utils/api/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/utils/api/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/news/[slug].tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/write/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/write/[id].tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +159,7 @@
       <workItem from="1654067932296" duration="5169000" />
       <workItem from="1654083600902" duration="313000" />
       <workItem from="1654083926173" duration="9098000" />
-      <workItem from="1654702565244" duration="658000" />
+      <workItem from="1654702565244" duration="7924000" />
     </task>
     <task id="LOCAL-00001" summary="Auth Add">
       <created>1652508604076</created>
@@ -235,22 +226,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="387" key="Github.CreatePullRequestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653573168382" />
-    <state width="1899" height="129" key="GridCell.Tab.0.bottom" timestamp="1654261035806">
+    <state width="1899" height="129" key="GridCell.Tab.0.bottom" timestamp="1654785017318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="129" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1654261035806" />
-    <state width="1899" height="129" key="GridCell.Tab.0.center" timestamp="1654261035806">
+    <state width="1899" height="129" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1654785017318" />
+    <state width="1899" height="129" key="GridCell.Tab.0.center" timestamp="1654785017318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="129" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1654261035806" />
-    <state width="1899" height="129" key="GridCell.Tab.0.left" timestamp="1654261035806">
+    <state width="1899" height="129" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1654785017318" />
+    <state width="1899" height="129" key="GridCell.Tab.0.left" timestamp="1654785017318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="129" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1654261035806" />
-    <state width="1899" height="129" key="GridCell.Tab.0.right" timestamp="1654261035806">
+    <state width="1899" height="129" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1654785017318" />
+    <state width="1899" height="129" key="GridCell.Tab.0.right" timestamp="1654785017318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="129" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1654261035806" />
+    <state width="1899" height="129" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1654785017318" />
     <state x="293" y="163" key="SettingsEditor" timestamp="1654083913385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

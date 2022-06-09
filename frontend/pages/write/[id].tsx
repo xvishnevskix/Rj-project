@@ -4,14 +4,16 @@ import { MainLayout } from '../../layouts/MainLayout';
 import { WriteForm } from '../../components/WriteForm';
 import { Api } from '../../utils/api';
 import { PostItem } from '../../utils/api/types';
+import { FullPost } from '../../components/FullPost';
 
 interface WritePageProps {
   post: PostItem;
 }
-
+// data={post}
 const WritePage: NextPage<WritePageProps> = ({ post }) => {
   return (
     <MainLayout className="main-layout-white" hideComments hideMenu>
+      <FullPost title={post.title} blocks={post.body} />
       <WriteForm data={post} />
     </MainLayout>
   );
@@ -23,7 +25,10 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
     const post = await Api(ctx).post.getOne(+id);
     const user = await Api(ctx).user.getMe();
 
+
+    console.log(ctx.params.id)
     if (post.user.id !== user.id) {
+
       return {
         props: {},
         redirect: {
@@ -38,6 +43,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
         post,
       },
     };
+
   } catch (err) {
     console.log('Write page', err);
     return {
