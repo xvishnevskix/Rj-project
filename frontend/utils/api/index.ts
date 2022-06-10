@@ -23,12 +23,20 @@ export const Api = (ctx?: NextPageContext | GetServerSidePropsContext): ApiRetur
 
     });
 
+    const apis = {
+        user: UserApi,
+        post: PostApi,
+        comment: CommentApi,
+    };
 
-    return {
-        user: UserApi(instance),
-        post: PostApi(instance),
-        comment: CommentApi(instance),
-    }
+    const result = Object.entries(apis).reduce((prev, [key, f]) => {
+        return {
+            ...prev,
+            [key]: f(instance),
+        };
+    }, {} as ApiReturnType);
+
+    return result;
 };
     // const apis = {
     //     user: UserApi,
