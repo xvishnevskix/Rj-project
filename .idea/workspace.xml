@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed8d138c-3755-4e59-83ab-46d2388aee25" name="Default Changelist" comment="Auth mod...">
+
       <change afterPath="$PROJECT_DIR$/frontend/components/AnotherPost/AnotherPost.module.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/components/AnotherPost/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -47,6 +48,12 @@
       <change beforePath="$PROJECT_DIR$/frontend/pages/rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/rating.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/utils/api/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/utils/api/types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/utils/api/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/utils/api/user.ts" afterDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_05_2022_10_35_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_05_2022_10_35__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +73,11 @@
         <entry key="$PROJECT_DIR$" value="Main" />
       </map>
     </option>
+
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backend" />
+
     <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -95,6 +106,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+
       <recent name="D:\Downloads\Проектики\TJ project\frontend\redux\slices" />
       <recent name="D:\Downloads\Проектики\TJ project\frontend" />
     </key>
@@ -114,6 +126,12 @@
       <envs />
       <method v="2" />
     </configuration>
+
+      <recent name="D:\Downloads\Проектики\TJ project\frontend" />
+    </key>
+  </component>
+  <component name="RunManager">
+
     <configuration name="start:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/backend/package.json" />
       <command value="run" />
@@ -126,7 +144,10 @@
     </configuration>
     <recent_temporary>
       <list>
+
         <item itemvalue="npm.dev" />
+=======
+
         <item itemvalue="npm.start:dev" />
         <item itemvalue="npm.start:dev" />
         <item itemvalue="npm.start:dev" />
@@ -165,6 +186,7 @@
       <workItem from="1653072993262" duration="45403000" />
       <workItem from="1653469699786" duration="11112000" />
       <workItem from="1653558814828" duration="8088000" />
+
       <workItem from="1653727595505" duration="5446000" />
       <workItem from="1653818422482" duration="14899000" />
       <workItem from="1653913570677" duration="18173000" />
@@ -174,6 +196,8 @@
       <workItem from="1654702565244" duration="14462000" />
       <workItem from="1654841133610" duration="14937000" />
       <workItem from="1654956688111" duration="5188000" />
+
+
     </task>
     <task id="LOCAL-00001" summary="Auth Add">
       <created>1652508604076</created>
@@ -220,6 +244,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="Auth mod..." />
   </component>
   <component name="WindowStateProjectService">
+
     <state x="724" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1653835321407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -228,6 +253,8 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653841774755" />
+
+
     <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1652530378954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -240,6 +267,7 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="387" key="Github.CreatePullRequestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653573168382" />
+
     <state width="949" height="122" key="GridCell.Tab.0.bottom" timestamp="1654964698151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -260,14 +288,43 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="293" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1654083913385" />
+=======
+    <state width="949" height="212" key="GridCell.Tab.0.bottom" timestamp="1653573373598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="949" height="212" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1653573373598" />
+    <state width="949" height="212" key="GridCell.Tab.0.center" timestamp="1653573373598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="949" height="212" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1653573373598" />
+    <state width="949" height="212" key="GridCell.Tab.0.left" timestamp="1653573373598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="949" height="212" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1653573373598" />
+    <state width="949" height="212" key="GridCell.Tab.0.right" timestamp="1653573373598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="949" height="212" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1653573373598" />
+    <state x="293" y="163" key="SettingsEditor" timestamp="1653560732513">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="293" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1653560732513" />
+
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog" timestamp="1652530378954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652530378954" />
+
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1654887335198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1654887335198" />
+
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1653573328695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1653573328695" />
+
     <state x="622" y="249" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1653573016972">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -284,6 +341,7 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1653127065094" />
+
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -294,5 +352,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+
   </component>
 </project>
