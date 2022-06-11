@@ -3,6 +3,7 @@ import { Post } from '../components/Post';
 import { MainLayout } from '../layouts/MainLayout';
 import { Api } from '../utils/api';
 import {PostItem} from "../utils/api/types";
+import {AnotherPost} from "../components/AnotherPost";
 
 interface HomeProps {
     posts: PostItem[];
@@ -17,17 +18,13 @@ const Home: NextPage<HomeProps> = ({ posts }) => {
                 <Post key={obj.id} id={obj.id} title={obj.title} description={obj.description} />
             ))
         }
+        <AnotherPost/>
     </MainLayout>
   );
 }
 
 
-{/*<Post />*/}
-{/*<Post />*/}
-{/*<Post />*/}
-{/*<Post />*/}
-{/*<Post />*/}
-{/*<Post />*/}
+
 export const getServerSideProps = async (ctx) => {
     try {
         const posts = await Api().post.getAll();

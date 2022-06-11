@@ -7,6 +7,7 @@ import { CommentItem } from '../../utils/api/types';
 import { useAppSelector } from '../../redux/hooks';
 import { selectUserData } from '../../redux/slices/user';
 import {Api} from "../../utils/api";
+import {useComments} from "../../hooks/useComments";
 
 
 interface PostComments {
@@ -16,8 +17,7 @@ interface PostComments {
 export const PostComments: React.FC<PostComments> = ({ postId }) => {
     const userData = useAppSelector(selectUserData);
     const [activeTab, setActiveTab] = React.useState(0);
-    const [comments, setComments] = React.useState<CommentItem[]>([]);
-    // const comments = data.comments[activeTab === 0 ? 'popular' : 'new'];
+    const { comments, setComments } = useComments(postId);
 
     const onAddComment = (obj: CommentItem) => {
         setComments((prev) => [...prev, obj]);
@@ -27,16 +27,6 @@ export const PostComments: React.FC<PostComments> = ({ postId }) => {
         setComments((prev) => prev.filter((obj) => obj.id !== id));
     };
 
-    React.useEffect(() => {
-        (async () => {
-            try {
-                const arr = await Api().comment.getAll(postId);
-                setComments(arr)
-            } catch (err) {
-                console.warn('Fetch comments', err)
-            }
-        }) ();
-    }, []);
 
     return (
         <Paper elevation={0} className="mt-40 p-30">

@@ -33,6 +33,10 @@
 
 .commentItem {
   margin-bottom: 25px;
+  &:not(:last-child) {
+    border-bottom: 1px solid rgba(0,0,0, 0.1);
+    padding-bottom: 20px;
+  }
 }
 
 .userInfo {

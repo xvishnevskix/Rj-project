@@ -16,6 +16,7 @@ export type ResponseUser = {
     fullName: string;
     id: number;
     commentsCount?: number;
+    postsCount?: number;
     token: string;
     updatedAt: string;
 };
