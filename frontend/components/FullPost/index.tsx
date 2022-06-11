@@ -21,7 +21,7 @@ export const FullPost: React.FC<FullPostProps> = ({ title, blocks }) => {
           </Typography>
           <div className={styles.text}>
             {blocks.map((obj) => (
-                <Typography key={obj.id} dangerouslySetInnerHTML={{ __html: obj.data.text }} />
+                <Typography key={obj?.id} dangerouslySetInnerHTML={{ __html: obj.data.text }} />
             ))}
 
             <div style={{ width: 250, marginLeft: -14 }}>

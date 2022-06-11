@@ -13,7 +13,7 @@ interface WritePageProps {
 const WritePage: NextPage<WritePageProps> = ({ post }) => {
   return (
     <MainLayout className="main-layout-white" hideComments hideMenu>
-      <FullPost title={post.title} blocks={post.body} />
+      {/*<FullPost title={post.title} blocks={post.body} />*/}
       <WriteForm data={post} />
     </MainLayout>
   );
