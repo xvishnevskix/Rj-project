@@ -1,21 +1,13 @@
 import Head from 'next/head';
 import { MuiThemeProvider, CssBaseline } from '@material-ui/core';
-
-
 import { Header } from '../components/Header';
 import { theme } from '../theme';
-
 import '../styles/globals.scss';
-import { Provider } from 'react-redux'
 import {store, wrapper } from '../redux/store'
-
-
 import 'macro-css';
 import React from 'react';
 import { AppProps } from 'next/dist/shared/lib/router/router';
 import { setUserData } from '../redux/slices/user';
-import {parseCookies} from "nookies";
-import {UserApi} from "../utils/api/user";
 import {Api} from "../utils/api";
 
 function App({ Component, pageProps }: AppProps) {

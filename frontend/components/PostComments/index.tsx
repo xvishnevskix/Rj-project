@@ -2,11 +2,9 @@ import React from 'react';
 import {Divider, Paper, Tab, Tabs, Typography} from "@material-ui/core";
 import {Comment} from "../Comment";
 import {AddCommentForm} from "../AddCommentForm";
-import data from '../../data';
 import { CommentItem } from '../../utils/api/types';
 import { useAppSelector } from '../../redux/hooks';
 import { selectUserData } from '../../redux/slices/user';
-import {Api} from "../../utils/api";
 import {useComments} from "../../hooks/useComments";
 
 

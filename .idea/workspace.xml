@@ -20,12 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed8d138c-3755-4e59-83ab-46d2388aee25" name="Default Changelist" comment="Auth mod...">
-      <change afterPath="$PROJECT_DIR$/frontend/components/AnotherPost/AnotherPost.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/components/AnotherPost/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/auth/auth.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/auth/strategies/jwt.strategy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/auth/strategies/jwt.strategy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/auth/validations/UniqueValidation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/auth/validations/UniqueValidation.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/comment/comment.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/comment/comment.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/comment/comment.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/comment/comment.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/comment/entities/comment.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/comment/entities/comment.entity.ts" afterDir="false" />
@@ -37,16 +36,15 @@
       <change beforePath="$PROJECT_DIR$/backend/src/user/entities/user.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/user/entities/user.entity.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/user/user.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/user/user.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/user/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/user/user.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/AnotherPost/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/AnotherPost/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/FullPost/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/FullPost/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Post/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Post/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/components/PostComments/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/PostComments/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/SideComments/CommentItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/SideComments/CommentItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/SideComments/SideComments.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/SideComments/SideComments.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/SideComments/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/SideComments/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/_app.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/rating.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/utils/api/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/utils/api/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/utils/api/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/utils/api/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/news/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/news/[id].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/write/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/write/[id].tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +171,18 @@
       <workItem from="1654083926173" duration="9098000" />
       <workItem from="1654702565244" duration="14462000" />
       <workItem from="1654841133610" duration="14937000" />
-      <workItem from="1654956688111" duration="5188000" />
+      <workItem from="1654956688111" duration="5948000" />
+      <workItem from="1655029503649" duration="13751000" />
+      <workItem from="1655285195004" duration="602000" />
+      <workItem from="1655458856294" duration="22742000" />
+      <workItem from="1655738473649" duration="597000" />
+      <workItem from="1655802510238" duration="1664000" />
+      <workItem from="1656261234238" duration="607000" />
+      <workItem from="1656418770053" duration="596000" />
+      <workItem from="1656676116412" duration="1012000" />
+      <workItem from="1656677551187" duration="43000" />
+      <workItem from="1656677601338" duration="3841000" />
+      <workItem from="1656748767586" duration="2554000" />
     </task>
     <task id="LOCAL-00001" summary="Auth Add">
       <created>1652508604076</created>
@@ -232,42 +241,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652530378954" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1653560716884">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1656677587263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1653560716884" />
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1656677587263" />
     <state x="743" y="387" key="Github.CreatePullRequestDialog" timestamp="1653573168382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="387" key="Github.CreatePullRequestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653573168382" />
-    <state width="949" height="122" key="GridCell.Tab.0.bottom" timestamp="1654964698151">
+    <state width="536" height="285" key="GridCell.Tab.0.bottom" timestamp="1656752307151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="122" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1654964698151" />
-    <state width="949" height="122" key="GridCell.Tab.0.center" timestamp="1654964698151">
+    <state width="536" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1656752307151" />
+    <state width="536" height="285" key="GridCell.Tab.0.center" timestamp="1656752307151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="122" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1654964698151" />
-    <state width="949" height="122" key="GridCell.Tab.0.left" timestamp="1654964698151">
+    <state width="536" height="285" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1656752307151" />
+    <state width="536" height="285" key="GridCell.Tab.0.left" timestamp="1656752307151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="122" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1654964698151" />
-    <state width="949" height="122" key="GridCell.Tab.0.right" timestamp="1654964698151">
+    <state width="536" height="285" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1656752307151" />
+    <state width="536" height="285" key="GridCell.Tab.0.right" timestamp="1656752307151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="122" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1654964698151" />
-    <state x="293" y="163" key="SettingsEditor" timestamp="1654083913385">
+    <state width="536" height="285" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1656752307151" />
+    <state x="677" y="219" key="SettingsEditor" timestamp="1656677653526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="293" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1654083913385" />
+    <state x="677" y="219" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1656677653526" />
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog" timestamp="1652530378954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652530378954" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1654887335198">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1654964878281">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1654887335198" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1654964878281" />
     <state x="622" y="249" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1653573016972">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

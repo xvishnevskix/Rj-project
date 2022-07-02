@@ -4,7 +4,7 @@ import { MainLayout } from '../../layouts/MainLayout';
 import { WriteForm } from '../../components/WriteForm';
 import { Api } from '../../utils/api';
 import { PostItem } from '../../utils/api/types';
-import { FullPost } from '../../components/FullPost';
+
 
 interface WritePageProps {
   post: PostItem;
@@ -13,7 +13,6 @@ interface WritePageProps {
 const WritePage: NextPage<WritePageProps> = ({ post }) => {
   return (
     <MainLayout className="main-layout-white" hideComments hideMenu>
-      {/*<FullPost title={post.title} blocks={post.body} />*/}
       <WriteForm data={post} />
     </MainLayout>
   );
