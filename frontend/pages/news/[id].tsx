@@ -4,7 +4,7 @@ import React from 'react';
 import {PostComments} from "../../components/PostComments";
 import {GetServerSideProps, NextPage} from 'next';
 import {Api} from "../../utils/api";
-import {PostItem} from "../../utils/api/types";
+import {PostItem, ResponseUser} from "../../utils/api/types";
 
 
 interface FullPostPageProps {
@@ -14,7 +14,11 @@ interface FullPostPageProps {
 const FullPostPage: NextPage<FullPostPageProps> = ({ post }) => {
     return (
         <MainLayout className="mb-50" contentFullWidth>
-            <FullPost title={post.title} blocks={post.body} />
+            <FullPost fullName={post.user.fullName}
+                      title={post.title}
+                      blocks={post.body}
+                      commentsCount={post.user.commentsCount}
+                      postsCount={post.user.commentsCount}/>
             <PostComments  postId={post.id}/>
         </MainLayout>
     );
