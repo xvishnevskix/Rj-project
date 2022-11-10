@@ -4,6 +4,7 @@ import { MainLayout } from '../layouts/MainLayout';
 import { Api } from '../utils/api';
 import {PostItem} from "../utils/api/types";
 import {AnotherPost} from "../components/AnotherPost";
+import React from "react";
 
 interface HomeProps {
     posts: PostItem[];
@@ -14,7 +15,7 @@ const Home: NextPage<HomeProps> = ({ posts }) => {
     <MainLayout>
         {
             posts.map((obj) => (
-                <Post key={obj.id} id={obj.id} title={obj.title} description={obj.description} />
+                <Post key={obj.id} id={obj.id} title={obj.title} description={obj.description} views={obj.views} />
             ))
         }
         <AnotherPost/>

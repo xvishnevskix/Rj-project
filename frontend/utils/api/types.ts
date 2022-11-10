@@ -32,6 +32,8 @@ export type PostItem = {
     user: ResponseUser;
     createdAt: string;
     updatedAt: string;
+    commentsCount?: number;
+    postsCount?: number;
 };
 
 export type CommentItem = {

@@ -12,7 +12,7 @@ export type ApiReturnType = {
 };
 
 export const Api = (ctx?: NextPageContext | GetServerSidePropsContext): ApiReturnType => {
-    const cookies = ctx ? Cookies.get(ctx) : parseCookies();
+    const cookies = ctx ? Cookies.get(ctx) : parseCookies(); //контекст, парсит куки
     const token = cookies.rtoken;
 
     const instance = axios.create({
@@ -38,18 +38,4 @@ export const Api = (ctx?: NextPageContext | GetServerSidePropsContext): ApiRetur
 
     return result;
 };
-    // const apis = {
-    //     user: UserApi,
-    //     post: PostApi,
-    //     comment: CommentApi,
-    // };
-
-    // const result = Object.entries(apis).reduce((prev, [key, f]) => {
-    //     return {
-    //         ...prev,
-    //         [key]: f(instance),
-    //     };
-    // }, {} as ApiReturnType);
-    //
-    // return result; }
 
