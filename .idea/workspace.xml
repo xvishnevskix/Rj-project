@@ -19,28 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed8d138c-3755-4e59-83ab-46d2388aee25" name="Default Changelist" comment="Auth mod...">
+    <list default="true" id="ed8d138c-3755-4e59-83ab-46d2388aee25" name="Default Changelist" comment="Views added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/AnotherPost/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/AnotherPost/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/AuthDialog/forms/Register.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/AuthDialog/forms/Register.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/FullPost/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/FullPost/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Post/Post.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Post/Post.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Post/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Post/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/PostActions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/PostActions.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/PostComments/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/PostComments/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/WriteForm/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/WriteForm/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/news/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/news/[id].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/profile/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/profile/[id].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/theme.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/utils/api/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/utils/api/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/utils/api/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/utils/api/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +163,7 @@
       <workItem from="1656677601338" duration="3841000" />
       <workItem from="1656748767586" duration="2554000" />
       <workItem from="1656753993115" duration="6809000" />
-      <workItem from="1668073023511" duration="630000" />
+      <workItem from="1668073023511" duration="1534000" />
     </task>
     <task id="LOCAL-00001" summary="Auth Add">
       <created>1652508604076</created>
@@ -206,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652509944553</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Views added">
+      <created>1668074449818</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668074449818</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,77 +213,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Auth Add" />
     <MESSAGE value="Auth mod..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Auth mod..." />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="724" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1653835321407">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="724" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1653835321407" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1653841774755">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653841774755" />
-    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1652530378954">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652530378954" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1656677587263">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1656677587263" />
-    <state x="743" y="387" key="Github.CreatePullRequestDialog" timestamp="1653573168382">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="743" y="387" key="Github.CreatePullRequestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653573168382" />
-    <state width="1131" height="170" key="GridCell.Tab.0.bottom" timestamp="1656765549388">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1131" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1656765549388" />
-    <state width="1131" height="170" key="GridCell.Tab.0.center" timestamp="1656765549388">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1131" height="170" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1656765549388" />
-    <state width="1131" height="170" key="GridCell.Tab.0.left" timestamp="1656765549388">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1131" height="170" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1656765549388" />
-    <state width="1131" height="170" key="GridCell.Tab.0.right" timestamp="1656765549388">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1131" height="170" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1656765549388" />
-    <state x="654" y="392" width="477" height="264" key="MultipleFileMergeDialog" timestamp="1656758365443">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="654" y="392" width="477" height="264" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1656758365443" />
-    <state x="677" y="219" key="SettingsEditor" timestamp="1656677653526">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="677" y="219" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1656677653526" />
-    <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog" timestamp="1652530378954">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652530378954" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1656758422623">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1656758422623" />
-    <state x="622" y="249" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1653573016972">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="622" y="249" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653573016972" />
-    <state x="740" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1652513738175">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652513738175" />
-    <state x="773" y="414" key="git4idea.ui.GitResetDialog" timestamp="1652528588841">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="773" y="414" key="git4idea.ui.GitResetDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652528588841" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1653127065094">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1653127065094" />
+    <MESSAGE value="Views added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Views added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
