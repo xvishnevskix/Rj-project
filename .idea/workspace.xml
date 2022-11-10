@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed8d138c-3755-4e59-83ab-46d2388aee25" name="Default Changelist" comment="db" />
+    <list default="true" id="ed8d138c-3755-4e59-83ab-46d2388aee25" name="Default Changelist" comment="db">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,30 +53,35 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="297oi2cy63PX2zsSHCpw3fAYx07" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\Downloads\\Проектики\\TJ project\\frontend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Downloads\Проектики\TJ project\frontend\redux\slices" />
-      <recent name="D:\Downloads\Проектики\TJ project\frontend" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Downloads\Проектики\TJ project\frontend\components\AnotherPost" />
       <recent name="D:\Downloads\Проектики\TJ project\frontend\utils\api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Downloads\Проектики\TJ project" />
+      <recent name="D:\Downloads\Проектики\TJ project\frontend\redux\slices" />
+      <recent name="D:\Downloads\Проектики\TJ project\frontend" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -161,7 +168,7 @@
       <workItem from="1656677601338" duration="3841000" />
       <workItem from="1656748767586" duration="2554000" />
       <workItem from="1656753993115" duration="6809000" />
-      <workItem from="1668073023511" duration="1847000" />
+      <workItem from="1668073023511" duration="3861000" />
     </task>
     <task id="LOCAL-00001" summary="Auth Add">
       <created>1652508604076</created>
@@ -198,7 +205,35 @@
       <option name="project" value="LOCAL" />
       <updated>1668076317571</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="db">
+      <created>1668076547283</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668076547283</updated>
+    </task>
+    <task id="LOCAL-00007" summary="db">
+      <created>1668076585224</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668076585224</updated>
+    </task>
+    <task id="LOCAL-00008" summary="db">
+      <created>1668076631445</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668076631445</updated>
+    </task>
+    <task id="LOCAL-00009" summary="db">
+      <created>1668076808523</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668076808523</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +251,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Auth Add" />
     <MESSAGE value="Auth mod..." />
     <MESSAGE value="Views added" />
