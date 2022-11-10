@@ -17,7 +17,7 @@ export const MainLayout: React.FC<MainLayoutProps> = ({
   hideMenu,
   className,
 }) => {
-
+//sadasdasdasdasdas
   return (
     <div className={clsx('wrapper', className)}>
         {!hideMenu &&
