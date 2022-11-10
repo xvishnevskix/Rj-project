@@ -5,6 +5,7 @@ import MessageIcon from '@material-ui/icons/TextsmsOutlined';
 import UserAddIcon from '@material-ui/icons/PersonAddOutlined';
 import styles from './FullPost.module.scss';
 import {OutputData} from "@editorjs/editorjs";
+import VisibilityOutlinedIcon from "@material-ui/icons/VisibilityOutlined";
 
 
 interface FullPostProps {
@@ -13,10 +14,11 @@ interface FullPostProps {
   blocks: OutputData['blocks'];
   commentsCount?: number;
   postsCount?: number;
+  views: number;
 }
 
 export const FullPost: React.FC<FullPostProps> = (
-    {fullName, title, blocks,commentsCount,postsCount }) => {
+    {fullName, title, blocks,commentsCount,postsCount ,views}) => {
   return (
       <Paper elevation={0} className={styles.paper}>
         <div className="container">
@@ -28,8 +30,14 @@ export const FullPost: React.FC<FullPostProps> = (
                 <Typography key={obj?.id} dangerouslySetInnerHTML={{ __html: obj.data.text }} />
             ))}
 
-            <div style={{ width: 250, marginLeft: -14 }}>
+            <div style={{ width: 700, marginLeft: -14, display: "flex", justifyContent: "space-between"}}>
               <PostActions />
+
+              <div style={{display: "flex", }}><VisibilityOutlinedIcon fontSize={"small"} >
+              </VisibilityOutlinedIcon>
+                <div >{views}</div>
+              </div>
+
             </div>
             <div className="d-flex justify-between align-center mt-30 mb-30">
               <div className={styles.userInfo}>
@@ -39,7 +47,7 @@ export const FullPost: React.FC<FullPostProps> = (
                 {/*/>*/}
                 <Avatar style={{ marginRight: 10 }}>{fullName[0]}</Avatar>
                 <b>{fullName}</b>
-                <span>+2326</span>
+                <span>{commentsCount*2}</span>
               </div>
               <div>
                 <Button variant="contained" className="mr-15">

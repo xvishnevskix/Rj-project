@@ -9,16 +9,21 @@ import {PostItem, ResponseUser} from "../../utils/api/types";
 
 interface FullPostPageProps {
     post: PostItem;
+    users: ResponseUser
 }
 
-const FullPostPage: NextPage<FullPostPageProps> = ({ post }) => {
+const FullPostPage: NextPage<FullPostPageProps> = ({ post, users }) => {
+    console.log(post.user.postsCount)
     return (
         <MainLayout className="mb-50" contentFullWidth>
             <FullPost fullName={post.user.fullName}
                       title={post.title}
                       blocks={post.body}
-                      commentsCount={post.user.commentsCount}
-                      postsCount={post.user.commentsCount}/>
+                      commentsCount={users?.commentsCount}
+                      postsCount={users?.postsCount}
+                      views={post.views}
+            />
+
             <PostComments  postId={post.id}/>
         </MainLayout>
     );

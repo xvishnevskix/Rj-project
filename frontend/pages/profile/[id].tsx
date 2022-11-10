@@ -7,6 +7,7 @@ import {
 
 import { Post } from '../../components/Post';
 import { MainLayout } from '../../layouts/MainLayout';
+import {AnotherPost} from "../../components/AnotherPost";
 
 export default function Profile() {
   return (
@@ -19,7 +20,7 @@ export default function Profile() {
               src="https://leonardo.osnova.io/5ffeac9a-a0e5-5be6-98af-659bfaabd2a6/-/scale_crop/108x108/-/format/webp/"
             />
             <Typography style={{ fontWeight: 'bold' }} className="mt-10" variant="h4">
-              Amon Bower
+              Bob Odenkirk
             </Typography>
           </div>
           <div>
@@ -52,7 +53,7 @@ export default function Profile() {
       </Paper>
       <div className="d-flex align-start">
         <div className="mr-20 flex">
-          <Post />
+          <AnotherPost />
         </div>
         <Paper style={{ width: 300 }} className="p-20 mb-20" elevation={0}>
           <b>Подписчики</b>

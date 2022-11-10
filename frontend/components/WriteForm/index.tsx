@@ -9,7 +9,7 @@ import {useRouter} from "next/router";
 const Editor = dynamic(() => import('../Editor').then(m => m.Editor), { ssr: false })
 
 interface WriteFormProps {
-    data: PostItem;
+    data?: PostItem;
 }
 
 export const WriteForm: React.FC<WriteFormProps> = ({data}) => {

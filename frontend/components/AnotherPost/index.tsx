@@ -7,6 +7,7 @@ import styles from './AnotherPost.module.scss';
 import { PostActions } from '../PostActions';
 
 export const AnotherPost: React.FC = () => {
+    // @ts-ignore
     return (
         <Paper elevation={0} className="p-20" classes={{ root: styles.paper }}>
             <Typography variant="h5" className={styles.title}>
@@ -26,7 +27,7 @@ export const AnotherPost: React.FC = () => {
                 height={500}
                 width={600}
             />
-            <PostActions />
+            <PostActions/>
         </Paper>
     );
 };
