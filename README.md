@@ -1,6 +1,6 @@
-# 📘 TJ-project
+# 📘 RJ-project
 
-Cool implementation of my blogging platform with writing my own backend.
+This repository is the original archive of the my RJ project, but it got messed up due to the nested repository of the backend folder.
 
 The current result of the development of the blog-platform information system “RJournal” is quite a functional web application. The project is made on the demanded, popular, promising technology stack, both frontend and backend. The project is still under development.
 
