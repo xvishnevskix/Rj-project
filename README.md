@@ -14,8 +14,9 @@ EditorJS
 React Hook Form / Yup
 Material UI
 SCSS / CSS-modules
-🌚 Backend:
 
+
+🌚 Backend:
 NestJS
 TypeScript
 PostgreSQL
